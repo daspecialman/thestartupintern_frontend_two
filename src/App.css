@@ -1,0 +1,93 @@
+.form-group{
+  width: 20rem;
+  margin: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  background-color: #60CED4;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 20px;
+  text-align: right;
+}
+
+.btn-submit{
+  width: 150px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  background-color: #5271FF;
+  color: #fff;
+  border-radius: 0.75rem;
+  display: block;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.space-btw{
+  justify-content: space-between;
+}
+
+.bucket-item{
+  background-color: ghostwhite;
+  color: black;
+  padding: 1rem;
+  box-shadow: .1rem 0rem 2rem .5rem rgba(0, 0, 0, 0.068);
+}
+
+.bucket-item:hover{
+  background-color: blanchedalmond;
+}
+
+.item-title{
+  font-size: larger;
+  font-weight: 510;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.item-content{
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.item-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-footer a{
+  color: #5271FF;
+}
+
+.page-title{
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.page-date{
+  color: #5271FF;
+}
+
+.page-content{
+  margin-top: 30px;
+}
+
+.page-content p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.page-actions a, .page-actions button{
+  width: 150px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 0.75rem;
+  display: inline-block;
+}
